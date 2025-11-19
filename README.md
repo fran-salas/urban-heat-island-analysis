@@ -56,12 +56,12 @@ urban-heat-island-analysis\
 │ └── lisa_maps\
 ├── tests\
 ├── docs\
-│ ├── methodology.md
-│ ├── findings.md
-│ └── data_strategy.md
-├── .env.example
-├── requirements.txt
-├── environment.yml
+│ ├── methodology.md\
+│ ├── findings.md\
+│ └── data_strategy.md\
+├── .env.example\
+├── requirements.txt\
+├── environment.yml\
 └── README.md
 
 
