@@ -15,7 +15,7 @@ Spatial Data Science repo exploring urban heat islands, vegetation health, and s
 git clone https://github.com/fran-salas/urban-heat-island-analysis.git
 cd urban-heat-island-analysis
 
-text
+
 
 2. **Set up your Python environment**
 python -m venv venv
@@ -23,12 +23,11 @@ venv\Scripts\activate # On Windows Command Prompt
 pip install --upgrade pip
 pip install -r requirements.txt
 
-text
+
 
 3. **Add your Census API key**
 - Request your key: [census.gov/data/key_signup.html](https://api.census.gov/data/key_signup.html)
 - Copy `.env.example` to `.env` and add your key
-- Keep `.env` private; never commit it
 
 4. **Obtain raw data sources**
 - Detailed links and instructions: [`data/raw/DATA_SOURCES.md`](data/raw/DATA_SOURCES.md)
@@ -38,25 +37,25 @@ text
 python verify_environment.py
 python test_census_api.py
 
-text
+
 
 ---
 
 ## Repository Structure
 
-urban-heat-island-analysis/
+urban-heat-island-analysis\
 │
-├── data/
-│ ├── raw/
-│ └── processed/
-├── src/
-├── notebooks/
-├── figures/
-│ ├── choropleths/
-│ ├── moran_plots/
-│ └── lisa_maps/
-├── tests/
-├── docs/
+├── data\
+│ ├── raw\
+│ └── processed\
+├── src\
+├── notebooks\
+├── figures\
+│ ├── choropleths\
+│ ├── moran_plots\
+│ └── lisa_maps\
+├── tests\
+├── docs\
 │ ├── methodology.md
 │ ├── findings.md
 │ └── data_strategy.md
@@ -65,7 +64,7 @@ urban-heat-island-analysis/
 ├── environment.yml
 └── README.md
 
-text
+
 
 ---
 
